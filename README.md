@@ -238,7 +238,7 @@ CalcSuite Pro demonstrates that a mathematically capable, multi-tool application
  
 **Yousuf S. R. Sakkaf**
 
-GitHub: [github.com/S-Yousuf-S/NHIS_Project2](https://github.com/S-Yousuf-S/NHIS_Project2)
+GitHub: [github.com/S-Yousuf-S/](https://github.com/S-Yousuf-S/)
  
 ---
  
