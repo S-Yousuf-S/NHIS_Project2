@@ -9,16 +9,16 @@
 ---
  
 <p align="center">
-  <img src="./screenshots/scientific.png" width="350" alt="Scientific Calculator"/>
+  <img src="./screenshots/scientific.png" height="350" alt="Scientific Calculator"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="./screenshots/algebra.png" width="350" alt="Smart Algebra"/>
+  <img src="./screenshots/algebra.png" height="350" alt="Smart Algebra"/>
 </p>
 <p align="center">
-  <img src="./screenshots/solvers.png" width="230" alt="Solvers"/>
+  <img src="./screenshots/solvers.png" height="250" alt="Solvers"/>
   &nbsp;&nbsp;
-  <img src="./screenshots/bmi.png" width="230" alt="BMI Calculator"/>
+  <img src="./screenshots/bmi.png" height="250" alt="BMI Calculator"/>
   &nbsp;&nbsp;
-  <img src="./screenshots/converter.png" width="230" alt="Unit Converter"/>
+  <img src="./screenshots/converter.png" height="250" alt="Unit Converter"/>
 </p>
 <p align="center"><i>Dark mode shown above. Light mode available via the 🌙/☀️ toggle.</i></p>
 ---
