@@ -9,16 +9,16 @@
 ---
  
 <p align="center">
-  <img src="./screenshots/scientific.png" width="48%" alt="Scientific Calculator"/>
-  &nbsp;
-  <img src="./screenshots/algebra.png" width="48%" alt="Smart Algebra"/>
+  <img src="./screenshots/scientific.png" width="350" alt="Scientific Calculator"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="./screenshots/algebra.png" width="350" alt="Smart Algebra"/>
 </p>
 <p align="center">
-  <img src="./screenshots/solvers.png" width="31%" alt="Solvers"/>
-  &nbsp;
-  <img src="./screenshots/bmi.png" width="31%" alt="BMI Calculator"/>
-  &nbsp;
-  <img src="./screenshots/converter.png" width="31%" alt="Unit Converter"/>
+  <img src="./screenshots/solvers.png" width="230" alt="Solvers"/>
+  &nbsp;&nbsp;
+  <img src="./screenshots/bmi.png" width="230" alt="BMI Calculator"/>
+  &nbsp;&nbsp;
+  <img src="./screenshots/converter.png" width="230" alt="Unit Converter"/>
 </p>
 <p align="center"><i>Dark mode shown above. Light mode available via the 🌙/☀️ toggle.</i></p>
 ---
@@ -29,7 +29,7 @@
  
 The primary engineering goal was to build an application that balances deep mathematical capability with strict programmatic safety — completely neutralizing code-injection risks by replacing Python's standard `eval()` with a custom AST (Abstract Syntax Tree) evaluation engine.
  
-> 📄 **Test Cases & Validation:** See [`Validation_and_Version_Report_CalcSuitePro.docx`](./Validation_and_Version_Report_CalcSuitePro.docx) for the full test suite and expected outputs for all five tabs.
+> 📄 **Test Cases & Validation:** See [`Validation_and_Version_Report_CalcSuitePro.pdf`](./Validation_and_Version_Report_CalcSuitePro.pdf) for the full test suite and expected outputs for all five tabs.
  
 ---
  
