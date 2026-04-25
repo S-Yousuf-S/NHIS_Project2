@@ -9,18 +9,10 @@
 ---
  
 <p align="center">
-  <img src="./screenshots/scientific.png" height="350" alt="Scientific Calculator"/>
-  &nbsp;&nbsp;&nbsp;
-  <img src="./screenshots/algebra.png" height="350" alt="Smart Algebra"/>
-</p>
-<p align="center">
-  <img src="./screenshots/solvers.png" height="250" alt="Solvers"/>
-  &nbsp;&nbsp;
-  <img src="./screenshots/bmi.png" height="250" alt="BMI Calculator"/>
-  &nbsp;&nbsp;
-  <img src="./screenshots/converter.png" height="250" alt="Unit Converter"/>
+  <img src="./assets/digi_tookit_banner.jpg" width="100%" alt="CalcSuite Pro App Showcase"/>
 </p>
 <p align="center"><i>Dark mode shown above. Light mode available via the 🌙/☀️ toggle.</i></p>
+<p align="center"><b><a href="./assets/">🔍 Click here to view full-resolution screenshots of each tab</a></b></p>
 ---
  
 ## 📌 Project Overview
@@ -29,7 +21,7 @@
  
 The primary engineering goal was to build an application that balances deep mathematical capability with strict programmatic safety — completely neutralizing code-injection risks by replacing Python's standard `eval()` with a custom AST (Abstract Syntax Tree) evaluation engine.
  
-> 📄 **Test Cases & Validation:** See [`Validation_and_Version_Report_CalcSuitePro.pdf`](./Validation_and_Version_Report_CalcSuitePro.pdf) for the full test suite and expected outputs for all five tabs.
+> 📄 **Test Cases & Validation:**[📄 View the full Validation and Version Report here](./assets/Validation_and_Version_Report_CalcSuitePro.pdf)
  
 ---
  
