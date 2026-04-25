@@ -13,6 +13,7 @@
 </p>
 <p align="center"><i>Dark mode shown above. Light mode available via the 🌙/☀️ toggle.</i></p>
 <p align="center"><b><a href="./assets/">🔍 Click here to view full-resolution screenshots of each tab</a></b></p>
+
 ---
 
 ## 📌 Project Overview
@@ -225,8 +226,8 @@ A selection of the key milestone versions that shaped the final release.
 
 ## 🙋 Frequently Asked Questions
 
-**Q: Why does the Algebra tab say 'Invalid Input' when I type 2x?**<br>
-**A:** Like most strict computational engines, CalcSuite Pro requires explicit mathematical operators. You must type 2*x so the engine knows exactly what operation to perform. This prevents the parser from confusing a variable multiplier with a two-letter variable name.
+**Q: Why does the Algebra tab say 'Invalid Input' when I type `2x`?**<br>
+**A:** Like most strict computational engines, CalcSuite Pro requires explicit mathematical operators. You must type `2*x` so the engine knows exactly what operation to perform. This prevents the parser from confusing a variable multiplier with a two-letter variable name.
 
 **Q:  Is my calculation history saved when I close the application?**<br>
 **A:** Currently, the application acts as a clean, session-based workstation. For absolute privacy and zero footprint on your local machine, nothing is saved to a database or text file when the app is closed. A persistent history log is planned for a future update.
@@ -247,7 +248,7 @@ A selection of the key milestone versions that shaped the final release.
 **A:**  Every single tab has a dedicated, bright red 'Clear' button specifically designed to wipe all entry fields and reset the result screens for that specific tool, ensuring you don't accidentally carry over old numbers into a new calculation.
 
 **Q: Is there a specific way I need to enter equations for the Quadratic Equation Solver?**<br>
-**A:** The Quadratic Solver is optimized for ease of use. You do not need to type the full ax^2 + bx + c = 0 string. Simply locate the three distinct input boxes for 'a', 'b', and 'c' and type your coefficients directly into them.
+**A:** The Quadratic Solver is optimized for ease of use. You do not need to type the full `ax^2 + bx + c = 0` string. Simply locate the three distinct input boxes for 'a', 'b', and 'c' and type your coefficients directly into them.
 
 ---
 
