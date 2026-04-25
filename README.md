@@ -14,7 +14,14 @@
 <p align="center"><i>Dark mode shown above. Light mode available via the 🌙/☀️ toggle.</i></p>
 <p align="center"><b><a href="./assets/">🔍 Click here to view full-resolution screenshots of each tab</a></b></p>
 ---
- 
+ <p align="center">
+  <b>View Full-Size Tabs:</b> 
+  <a href="./assets/scientific.png">Scientific</a> | 
+  <a href="./assets/algebra.png">Algebra</a> | 
+  <a href="./assets/solvers.png">Solvers</a> | 
+  <a href="./assets/bmi.png">BMI</a> | 
+  <a href="./assets/converter.png">Converter</a>
+</p>
 ## 📌 Project Overview
  
 **CalcSuite Pro** is a professional, multi-tool mathematical workstation built in Python using CustomTkinter. Designed to bridge the gap between simple arithmetic and complex algebraic analysis, it operates as a high-density **"Digi-ToolKit"** — five purpose-built calculators unified under a single, theme-aware interface.
