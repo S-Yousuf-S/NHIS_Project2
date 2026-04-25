@@ -9,7 +9,7 @@
 ---
  
 <p align="center">
-  <img src="./assets/digi_tookit_banner.jpg" width="100%" alt="CalcSuite Pro App Showcase"/>
+  <img src="./assets/digi_toolkit_banner.jpg" width="100%" alt="CalcSuite Pro App Showcase"/>
 </p>
 <p align="center"><i>Dark mode shown above. Light mode available via the 🌙/☀️ toggle.</i></p>
 <p align="center"><b><a href="./assets/">🔍 Click here to view full-resolution screenshots of each tab</a></b></p>
@@ -21,7 +21,7 @@
  
 The primary engineering goal was to build an application that balances deep mathematical capability with strict programmatic safety — completely neutralizing code-injection risks by replacing Python's standard `eval()` with a custom AST (Abstract Syntax Tree) evaluation engine.
  
-> 📄 **Test Cases & Validation:**[📄 View the full Validation and Version Report here](./assets/Validation_and_Version_Report_CalcSuitePro.pdf)
+> [**📄 View the full Validation and Version Report here**](./assets/Validation_and_Version_Report_CalcSuitePro.pdf)
  
 ---
  
