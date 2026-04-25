@@ -21,7 +21,10 @@
  
 The primary engineering goal was to build an application that balances deep mathematical capability with strict programmatic safety — completely neutralizing code-injection risks by replacing Python's standard `eval()` with a custom AST (Abstract Syntax Tree) evaluation engine.
  
-> [**📄 View the full Validation and Version Report here**](./assets/Validation_and_Version_Report_CalcSuitePro.pdf)
+> ### 🧪 Testing & Validation
+A comprehensive suite of test cases, edge-case guardrails, and error handling has been documented to ensure both mathematical accuracy and programmatic safety. 
+
+**[📄 View the full Validation and Version Report (PDF) here](./assets/Validation_and_Version_Report_CalcSuitePro.pdf)**
  
 ---
  
