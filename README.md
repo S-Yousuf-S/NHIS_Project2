@@ -225,36 +225,28 @@ A selection of the key milestone versions that shaped the final release.
 
 ## 🙋 Frequently Asked Questions
 
-**Q: Why does the Algebra tab say 'Invalid Input' when I type 2x?**
-
+**Q: Why does the Algebra tab say 'Invalid Input' when I type 2x?**<br>
 **A:** Like most strict computational engines, CalcSuite Pro requires explicit mathematical operators. You must type 2*x so the engine knows exactly what operation to perform. This prevents the parser from confusing a variable multiplier with a two-letter variable name.
 
-**Q:  Is my calculation history saved when I close the application?**
-
+**Q:  Is my calculation history saved when I close the application?**<br>
 **A:** Currently, the application acts as a clean, session-based workstation. For absolute privacy and zero footprint on your local machine, nothing is saved to a database or text file when the app is closed. A persistent history log is planned for a future update.
 
-**Q:  My screen resolution is very low, and the app looks cut off. What do I do?**
-
+**Q:  My screen resolution is very low, and the app looks cut off. What do I do?**<br>
 **A:** The application is built with a responsive grid geometry, but if your screen is exceptionally small, you can freely resize the window by dragging the corners. The CustomTkinter frames will automatically anchor and adjust themselves to fit your view.
 
-**Q:  My Scientific calculator is giving me the wrong answer for sine and cosine!**
-
+**Q:  My Scientific calculator is giving me the wrong answer for sine and cosine!**<br>
 **A:** Check your angle mode! At the top left of the Scientific tab, there is a toggle for 'DEG/RAD'. If you are entering degrees (like 90), make sure the button says DEG. If you are entering radians (like π/2), ensure it is switched to RAD.
 
-**Q:  When I use the 2x2 Linear Solver, it just says 'Lines are Parallel' instead of giving me X and Y. Is it broken?**
-
+**Q:  When I use the 2x2 Linear Solver, it just says 'Lines are Parallel' instead of giving me X and Y. Is it broken?**<br>
 **A:**  Not at all! That means the math engine successfully detected that the two equations you entered have the exact same slope but different intercepts. In mathematics, parallel lines never intersect, meaning there is no X and Y solution. The app is protecting you from an impossible calculation.
 
-**Q:  Can I add my own custom units to the Unit Converter?**
-
+**Q:  Can I add my own custom units to the Unit Converter?**<br>
 **A:** The current version features a hardcoded dictionary of the most globally used units (Weight, Length, Temperature, etc.) for stability and speed. Custom unit definition is not currently supported, but the dropdowns cover over 95% of standard daily conversions.
 
-**Q:  How do I clear all my inputs if I want to start over?**
-
+**Q:  How do I clear all my inputs if I want to start over?**<br>
 **A:**  Every single tab has a dedicated, bright red 'Clear' button specifically designed to wipe all entry fields and reset the result screens for that specific tool, ensuring you don't accidentally carry over old numbers into a new calculation.
 
-**Q: Is there a specific way I need to enter equations for the Quadratic Equation Solver?**
-
+**Q: Is there a specific way I need to enter equations for the Quadratic Equation Solver?**<br>
 **A:** The Quadratic Solver is optimized for ease of use. You do not need to type the full ax^2 + bx + c = 0 string. Simply locate the three distinct input boxes for 'a', 'b', and 'c' and type your coefficients directly into them.
 
 ---
