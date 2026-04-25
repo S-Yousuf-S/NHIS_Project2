@@ -9,7 +9,7 @@
 ---
  
 <p align="center">
-  <img src="./assets/digi_toolkit_banner.jpg" width="100%" alt="CalcSuite Pro App Showcase"/>
+  <img src="./assets/digi_toolkit_banner.png" width="100%" alt="CalcSuite Pro App Showcase"/>
 </p>
 <p align="center"><i>Dark mode shown above. Light mode available via the 🌙/☀️ toggle.</i></p>
 <p align="center"><b><a href="./assets/">🔍 Click here to view full-resolution screenshots of each tab</a></b></p>
