@@ -36,14 +36,14 @@ A comprehensive suite of test cases, edge-case guardrails, and error handling ha
 The backbone of the toolkit. Performs all standard and advanced scientific operations through a custom, injection-safe evaluation pipeline.
  
 - **Secure Evaluation:** Expressions are parsed using Python's `ast` module into a syntax tree, then evaluated by a strict whitelist-only `eval_ast()` engine — `eval()` and `exec()` are never called
-- **Implicit Multiplication:** Recognises `2π`, `2sin(30)`, `2(5+3)` natively without extra input
+- **Implicit Multiplication:** Recognises `2π`, `3e`
 - **Postfix Function Input:** Type the number first, then press the function — `90 → sin` produces `sin(90)`, matching physical calculator behaviour
 - **Smart Redirect:** Detects algebraic variable input (e.g. `2x+5`) and carries the expression directly to the Algebra tab with a 450ms transition delay
 - **Trigonometry:** `sin`, `cos`, `tan` with persistent DEG / RAD mode toggle
-- **Logarithms:** `log` (base 10), `ln` (natural log)
-- **Combinatorics:** `nPr`, `nCr`, `n!` (factorial)
+- **Logarithms:** `log` (base 10), `ln` (natural log or base e)
+- **Combinatorics:** `nPr` (Permutations), `nCr` (Combinations), `n!` (factorial)
 - **Fibonacci:** `FIB(n)` for the nth value; `FIBS(n)` for a full series (popup window for n > 10)
-- **Base Conversion:** `BIN`, `HEX`, `DEC` real-time conversion
+- **Base Conversion:** Dedicated directional routing (`DEC → BIN`, `DEC → HEX`, and `BIN → DEC`).
 - **History:** 24-hour auto-pruning history shared across all tabs
 - **UI:** Hover animations, click flash, dark/light theme toggle, keyboard support
 **Keyboard Shortcuts:**
@@ -112,7 +112,7 @@ Free-form natural language input. Type expressions exactly as written — the en
  
 **Known Limitations:**
 - Equations with degree > 2 cannot be solved (but can be simplified freely if no `=` sign is present)
-- Cross-variable terms (`xy`, `ab`) are detected and flagged — a CAS such as Wolfram Alpha is required for these
+- Cross-variable terms (`xy`, `ab`) are detected and flagged — currently absent in this build but considered as future enhancement.
 - Systems of 3 or more variables require a matrix solver
 - Non-linear equations (Quadratics, FOIL/Bracket expansions) require all variables to be on the left side of the equals sign (i.e., the right side must evaluate to a pure number).
 ---
@@ -157,7 +157,7 @@ Free-form natural language input. Type expressions exactly as written — the en
 | **Precision** | Epsilon checks (`abs(val) < 1e-12`) across all solvers to eliminate floating-point binary rounding errors |
 | **Engine Scope** | Algebra tab uses pattern extraction and polynomial dictionaries — deliberate boundary against full CAS symbolic distribution |
 | **Regex Standards** | All regular expressions use raw strings (`r'...'`) to prevent `SyntaxWarning` in Python 3.12+ |
-| **UX Timing** | 450ms state-transition delay — the psychological "Goldilocks" zone for readable UI prompts without artificial lag |
+| **UX Timing** | 450ms state-transition delay — for readable UI prompts without artificial lag |
 | **State Persistence** | Globally shared 24-hour auto-pruning `HistoryManager` tracks operations across all five tabs |
 | **Typography** | Bahnschrift for tab navigation (high-density, no character slicing); Consolas for result output (monospaced precision) |
  
