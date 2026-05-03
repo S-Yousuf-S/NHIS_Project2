@@ -115,6 +115,8 @@ Free-form natural language input. Type expressions exactly as written — the en
 - Cross-variable terms (`xy`, `ab`) are detected and flagged — currently absent in this build but considered as future enhancement.
 - Systems of 3 or more variables require a matrix solver
 - Non-linear equations (Quadratics, FOIL/Bracket expansions) require all variables to be on the left side of the equals sign (i.e., the right side must evaluate to a pure number).
+- Exponential Binomials — The engine features a dual-path syntax parser. Explicit brackets `(x-3)(x-3)` are routed to the FOIL Expansion kernel, whereas power syntax `(x-3)^2` is deliberately intercepted by the Guardrail system to prevent uncontrolled recursive CAS loops.
+  
 ---
  
 ### ⚖️ Tab 4 — Health / BMI *(The Analytical)*
