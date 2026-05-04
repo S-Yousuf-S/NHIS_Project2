@@ -8,7 +8,7 @@
 
  ---
 
-> **⚠️ EVALUATION NOTICE:** The core engineering architecture, AST parsing logic, and security protocols are detailed explicitly in the presentation's **speaker notes**. Please view the included `CalcSuitePro_With_Notes.pdf` or download the raw `.pptx` file to access the full technical breakdown.
+> **⚠️ EVALUATION NOTICE:** The core engineering architecture, AST parsing logic, and security protocols are detailed explicitly in the presentation's **speaker notes**. Please view the included [CalcSuitePro_With_Notes.pdf](./CalcSuitePro_With_Notes.pdf) or download the raw [CalcSuitePro_Presentation.pptx](./CalcSuitePro_Presentation.pptx) file to access the full technical breakdown.
 
 ---
  
