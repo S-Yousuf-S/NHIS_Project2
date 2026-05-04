@@ -5,7 +5,11 @@
 ![Math](https://img.shields.io/badge/Domain-Mathematical%20Analysis-orange)
 ![Status](https://img.shields.io/badge/Status-Final%20Release%20v7.6-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
- 
+
+ ---
+
+> **⚠️ EVALUATION NOTICE:** The core engineering architecture, AST parsing logic, and security protocols are detailed explicitly in the presentation's **speaker notes**. Please view the included `CalcSuitePro_With_Notes.pdf` or download the raw `.pptx` file to access the full technical breakdown.
+
 ---
  
 <p align="center">
