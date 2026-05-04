@@ -8,7 +8,8 @@
 
  ---
 
-> **⚠️ EVALUATION NOTICE:** The core engineering architecture, parsing as well as working logic, security protocols and more are detailed explicitly in the presentation's **Speaker Notes**. Please view the included [CalcSuitePro_With_Notes](./CalcSuitePro_With_Notes.pdf) or download the raw [CalcSuitePro_Presentation](./CalcSuitePro_YS.pptx) file to access the full technical breakdown.
+> **⚠️ EVALUATION NOTICE:**
+The core engineering architecture, parsing as well as working logic, security protocols and more are detailed explicitly in the presentation's **Speaker Notes**. Please view the included [CalcSuitePro_With_Notes](./CalcSuitePro_With_Notes.pdf) or download the raw [CalcSuitePro_Presentation](./CalcSuitePro_YS.pptx) file to access the full technical breakdown.
 
 ---
  
