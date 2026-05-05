@@ -99,7 +99,7 @@ Free-form natural language input. Type expressions exactly as written — the en
  
 | Type | Input Example | Output |
 |---|---|---|
-| **Numeric Bypass** | `5 + 10 * 2` | `Result: 25` |
+| **Numeric Bypass** | `5 + 10 * 2 = 25` | `Mathematical Statement is True` |
 | **Simplification** | `3x^3-7x^2+8x^3+5y^2-3y^2` | `11x^3-x^2+2y^2` |
 | **Linear (1 Var)** | `3x - 5 = 10` | `x = 5` |
 | **Linear (2×2)** | `2a-6b=19, 4a+4b=12` | `a = 4.625, b = -1.625` |
