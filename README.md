@@ -205,7 +205,7 @@ source calc_env/bin/activate
  
 **3. Install dependencies:**
 ```bash
-pip install customtkinter
+pip install -r requirements.txt
 ```
  
 **4. Launch the application:**
